@@ -1,0 +1,43 @@
+body {
+    background-color: orange;
+    color: purple;
+}
+.body {
+    background-color: greenyellow;
+    /* margin-top: 10%; */
+    padding: 2rem;
+}
+header, footer {
+    text-align: center;
+}
+header {
+    margin-top: 10%;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+}
+.input {
+margin-bottom: 0.5rem;
+display: flex;
+justify-content: center;
+}
+.other-actions {
+    display: flex;
+    justify-content: center;
+margin-bottom: 0.5rem;
+}
+.todoItems {
+    background-color: orange;
+    height: 30vh;
+    padding-top: 0.5rem;
+}
+.add {
+    background-color: orange;
+    border-color: orange;
+    color: purple;
+    margin-left: 0.2rem;
+}
+.delete {
+    background-color: red;
+    border-color: red;
+    color: purple;
+}
