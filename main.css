@@ -7,6 +7,8 @@ body {
     padding: 2rem;
     border-radius: 0.5rem;
     border: 1px solid purple;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 header, footer {
     text-align: center;

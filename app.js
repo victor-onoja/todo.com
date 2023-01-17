@@ -9,10 +9,15 @@ if (localStorage.getItem('myItems')) {
     items = [];
 }
 
-add.addEventListener('click', function(){
+add.addEventListener('click', function(e){
+    if(!val.value){
+        e.preventDefault();
+        console.log('shoks senior dev');
+        alert('shoks said you need a todo...');
+    }else{
    items.push(val.value);
    localStorage.setItem('myItems', JSON.stringify(items));
-   console.log(items);  
+   console.log(items); } 
 });
 
 for (let i = 0; i < items.length; i++) {
