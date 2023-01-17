@@ -1,3 +1,3 @@
 # todo.com
-sourcecode for a website for creating todolists
+sourcecode for a website for creating todolists.
 
