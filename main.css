@@ -4,8 +4,9 @@ body {
 }
 .body {
     background-color: greenyellow;
-    /* margin-top: 10%; */
     padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid purple;
 }
 header, footer {
     text-align: center;
@@ -29,6 +30,8 @@ margin-bottom: 0.5rem;
     background-color: orange;
     height: 30vh;
     padding-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid purple;
 }
 .add {
     background-color: orange;
